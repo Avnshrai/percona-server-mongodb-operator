@@ -40,7 +40,7 @@ spec:
     encryptionKey: my-cluster-name-mongodb-encryption-key
 #    vault: my-cluster-name-vault
   pmm:
-    enabled: false
+    enabled: true
     image: percona/pmm-client:2.35.0
     serverHost: monitoring-service
 #    mongodParams: --environment=ENVIRONMENT
