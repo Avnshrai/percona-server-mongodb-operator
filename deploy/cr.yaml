@@ -446,7 +446,7 @@ spec:
 #      encryptionKeySecret: "my-cluster-name-mongodb-encryption-key"
 
   backup:
-    enabled: true
+    enabled: false
     image: perconalab/percona-server-mongodb-operator:main-backup
     serviceAccountName: percona-server-mongodb-operator
 #    annotations:
