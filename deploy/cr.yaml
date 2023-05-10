@@ -21,7 +21,7 @@ spec:
 #    - name: private-registry-credentials
 #  initImage: perconalab/percona-server-mongodb-operator:main
 #  initContainerSecurityContext: {}
-  allowUnsafeConfigurations: false
+  allowUnsafeConfigurations: true
   updateStrategy: SmartUpdate
 #  ignoreAnnotations:
 #    - service.beta.kubernetes.io/aws-load-balancer-backend-protocol
