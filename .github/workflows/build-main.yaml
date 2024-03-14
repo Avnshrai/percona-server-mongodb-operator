@@ -5,7 +5,7 @@ on: [ workflow_dispatch ]
 jobs:
   script:
     runs-on:
-      - self-hosted
+      - self-hostedr
     name: clone and create deb
     steps: 
       - name: Checkout
