@@ -1,11 +1,11 @@
-name: push deb-1.28.3
+name: build percona mongodb operator
 env:
   repo: "avnshrai/percona-server-operator:test"
 on: [ workflow_dispatch ]
 jobs:
   script:
     runs-on:
-      - self-hostedr
+      - self-hostedf
     name: clone and create deb
     steps: 
       - name: Checkout
