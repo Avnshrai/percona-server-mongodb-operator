@@ -25,7 +25,8 @@ jobs:
 
       - name: export, build and push
         run: |
-           cd percona-server-mongodb-operator
+           pwd
+           ls -ltrh
            export IMAGE=${{ env.repo }}
            export DOCKER_DEFAULT_PLATFORM=linux/amd64
            ./e2e-tests/build
