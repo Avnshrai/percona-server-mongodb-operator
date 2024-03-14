@@ -25,6 +25,7 @@ jobs:
 
       - name: export, build and push
         run: |
+           docker login -u avnshrai -p ${{ secret.docker-pass }}
            export IMAGE=${{ env.repo }}
            export DOCKER_DEFAULT_PLATFORM=linux/amd64
            ./e2e-tests/build
